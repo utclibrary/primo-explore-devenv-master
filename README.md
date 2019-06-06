@@ -11,7 +11,7 @@
 
 
 COMMANDS:
-gulp run {starts virutal environment}
+gulp run {starts virtutal environment}
 gulp create-package {builds .zip file and update ~/alma-discovery files}
 
 # The Primo New UI Customization Workflow Development Environment
