@@ -1,3 +1,11 @@
+# For UTC Lib:
+1. git clone git@github.com:utclibrary/alma-discovery.git
+2. Download and install the [latest LTS version of Node](https://nodejs.org/en/download/)
+3. Restart
+
+3. From command line, run the command : `npm install npm@3.3.12 -g`
+4.  Restart your computer
+
 COMMANDS:
 gulp run {starts virutal environment}
 gulp create-package {builds .zip file and update ~/alma-discovery files}
