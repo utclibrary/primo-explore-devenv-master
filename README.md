@@ -1,13 +1,14 @@
 # For UTC Lib:
 1. git clone git@github.com:utclibrary/alma-discovery.git
-2. Download and install Node 6.9.2 http://nodejs.org/dist/v6.9.2/
-3. Restart
-4. npm install npm@3.10.9 -g
-5. In project base directory (~/primo-explore-devenv-master) run : 'npm install gulp'
-6. copy files: cp -r ~/alma-discovery/* ~/primo-explore-devenv-master/primo-explore/custom/
-7. gulp run
-8. http://localhost:8003/discovery/search?vid=01UTC_INST:DEV&sortby=rank
-9. gulp create-package
+2. git clone git@github.com:utclibrary/primo-explore-devenv-master.git
+3. Download and install Node 6.9.2 http://nodejs.org/dist/v6.9.2/
+4. Restart
+5. npm install npm@3.10.9 -g
+6. In project base directory (~/primo-explore-devenv-master) run : 'npm install gulp'
+7. copy files: cp -r ~/alma-discovery/* ~/primo-explore-devenv-master/primo-explore/custom/
+8. gulp run
+9. http://localhost:8003/discovery/search?vid=01UTC_INST:DEV&sortby=rank
+10. gulp create-package
 
 
 COMMANDS:
