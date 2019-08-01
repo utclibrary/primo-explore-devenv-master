@@ -6,15 +6,15 @@
 5. from home directory run: 'npm install npm@3.10.9 -g'
 6. Restart computer
 7. from home directory run: 'npm install -g gulp'
-6. In project base directory (~/primo-explore-devenv-master) run : 'npm install'
-7. copy files: cp -r ~/alma-discovery/* ~/primo-explore-devenv-master/primo-explore/custom/
-8. gulp run
-9. http://localhost:8003/discovery/search?vid=01UTC_INST:DEV&sortby=rank
-10. gulp create-package
+8. In project base directory (~/primo-explore-devenv-master) run : 'npm install'
+9. copy files: cp -r ~/alma-discovery/* ~/primo-explore-devenv-master/primo-explore/custom/
+10. gulp run
+11. http://localhost:8003/discovery/search?vid=01UTC_INST:DEV&sortby=rank
+12. gulp create-package
 
 
 COMMANDS:
-gulp run {starts virtutal environment}
+gulp run {starts virtual environment}
 gulp create-package {builds .zip file and update ~/alma-discovery files}
 
 # The Primo New UI Customization Workflow Development Environment
