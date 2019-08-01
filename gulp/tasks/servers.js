@@ -27,6 +27,11 @@ gulp.task('setup_watchers', ['watch-js', 'watch-custom-scss', 'watch-css'], () =
 
 
 gulp.task('connect:primo_explore', function() {
+  var exec = require('child_process').exec; //copy files 
+  exec('cp -fR ~/Alma-Discovery/ ~/primo-explore-devenv-master/primo-explore/custom/ ', function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+  });
     let appName = 'primo-explore';
     browserSyncManager.startServer({
         label: 'production',
