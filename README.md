@@ -1,7 +1,7 @@
 # For UTC Lib:
 1. git clone git@github.com:utclibrary/alma-discovery.git
 2. git clone git@github.com:utclibrary/primo-explore-devenv-master.git
-3. Download and install Node 6.9.2 http://nodejs.org/dist/v6.9.2/
+3. Download and install Node 6.9.2 http://nodejs.org/dist/v6.9.2/ *
 4. Restart computer
 5. from home directory run: 'npm install npm@3.10.9 -g'
 6. Restart computer
@@ -12,6 +12,7 @@
 11. http://localhost:8003/discovery/search?vid=01UTC_INST:DEV&sortby=rank
 12. gulp create-package
 
+* if you need to manage different versions of Node, use https://github.com/nvm-sh/nvm#git-install
 
 COMMANDS:
 gulp run {starts virtual environment}
